@@ -104,7 +104,7 @@ int main(int argc, char** argv) {
 
 	cout << "Correct predictions: " << correct_predictions << endl;
 	cout << "Total predictions: " << total_predictions << endl;
-	cout << "Prediction rate: ";
+	cout << "Prediction accuracy: ";
 	printf("%.2f\%\n", (double)correct_predictions / total_predictions * 100);
 
 	infile.close();
